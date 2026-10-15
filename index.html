@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta FX Hub Creative | Samara Augusta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:#000000;color:#FFFFFF;font-family:'Manrope',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:#E94E1B;text-decoration:none}
+a:hover{color:#FFFFFF}
+::selection{background:#E94E1B;color:#000000}
+@keyframes fxDrift{0%,100%{transform:translate3d(0,0,0) scale(1)}33%{transform:translate3d(6%,4%,0) scale(1.08)}66%{transform:translate3d(-4%,6%,0) scale(.95)}}
+@keyframes fxSpin{to{transform:rotate(360deg)}}
+@keyframes fxFloat{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-14px,0)}}
+@keyframes fxChev{0%,100%{opacity:.25}50%{opacity:1}}
+</style>
+</helmet>
+
+<div style="position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.09;mix-blend-mode:overlay;background-image:url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%27200%27%20height=%27200%27%3E%3Cfilter%20id=%27n%27%3E%3CfeTurbulence%20type=%27fractalNoise%27%20baseFrequency=%27.9%27%20numOctaves=%273%27%20stitchTiles=%27stitch%27/%3E%3C/filter%3E%3Crect%20width=%27100%25%27%20height=%27100%25%27%20filter=%27url%28%23n%29%27/%3E%3C/svg%3E)"></div>
+
+<header style="position:fixed;top:0;left:0;right:0;z-index:40;padding:clamp(12px,1.6vw,18px) clamp(16px,4vw,48px)">
+  <div style="max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 10px 10px clamp(16px,2vw,24px);border-radius:999px;background:rgba(0,0,0,.55);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(233,78,27,.22)">
+    <a href="#topo" style="display:block"><img src="assets/fx/fx-logo-white.png" alt="FX Hub Creative" style="height:clamp(16px,1.8vw,20px);width:auto"></a>
+    <a href="https://wa.me/5579936183288" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:11px clamp(16px,2vw,22px);border-radius:999px;background:#E94E1B;color:#000000;font-family:'Unbounded',sans-serif;font-weight:500;font-size:11px;letter-spacing:.06em;text-transform:uppercase;transition:background .22s ease-out,box-shadow .3s ease-out,transform .22s ease-out" style-hover="background:#FF5F27;color:#000000;box-shadow:0 0 30px -4px rgba(233,78,27,.8);transform:translateY(-1px)">Falar com a FX <span style="letter-spacing:-.01em">&gt;&gt;&gt;</span></a>
+  </div>
+</header>
+
+<section id="topo" data-screen-label="Hero" style="position:relative;overflow:hidden;min-height:min(100svh,920px);display:flex;align-items:center;padding:clamp(104px,13vw,150px) clamp(20px,5vw,56px) clamp(56px,7vw,88px)">
+  {{ heroGlow }}
+  <div style="position:absolute;left:0;right:0;bottom:0;height:40%;background:linear-gradient(180deg,transparent,#000000);pointer-events:none"></div>
+  <div style="position:relative;width:100%;max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px);align-items:center;justify-content:space-between">
+    <div style="flex:1 1 520px;min-width:0;max-width:760px">
+      <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);display:inline-flex;align-items:center;gap:12px;padding:10px 18px;border-radius:999px;border:1px solid #E94E1B;font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:#FFFFFF;margin-bottom:clamp(26px,3.4vw,36px)"><span style="width:7px;height:7px;border-radius:50%;background:#E94E1B;box-shadow:0 0 12px #E94E1B"></span>Proposta para Samara Augusta</p>
+      <h1 data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(30px,5vw,66px);line-height:1.1;letter-spacing:-.025em;text-wrap:balance">Cresça no <span style="color:#E94E1B">online</span> com a credibilidade que você já construiu.</h1>
+      <p data-r="" data-d="180" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);margin-top:clamp(22px,3vw,30px);max-width:50ch;font-size:clamp(16px,1.4vw,18px);line-height:1.7;color:rgba(255,255,255,.8);text-wrap:pretty">Tráfego, criativos e estrutura comercial trabalhando juntos para levar o seu atendimento a pacientes de qualquer cidade, inclusive brasileiros que moram fora do país.</p>
+    </div>
+    <div data-r="" data-d="220" style="opacity:0;transform:translateY(18px);transition:opacity 1.2s cubic-bezier(.2,.7,.2,1),transform 1.2s cubic-bezier(.2,.7,.2,1);position:relative;flex:0 1 clamp(200px,28vw,360px);width:clamp(200px,28vw,360px);margin:0 auto;aspect-ratio:1">{{ heroMark }}</div>
+  </div>
+  <div data-r="" data-d="320" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);position:absolute;left:clamp(20px,5vw,56px);right:clamp(20px,5vw,56px);bottom:clamp(20px,3vw,32px);max-width:1160px;margin:0 auto;display:none"></div>
+</section>
+
+<section data-screen-label="Dados" style="position:relative;padding:0 clamp(20px,5vw,56px)">
+  <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));border-radius:24px;border:1px solid rgba(233,78,27,.55);overflow:hidden;background:rgba(46,42,41,.35)">
+    <div style="padding:clamp(20px,2.4vw,28px) clamp(22px,2.6vw,32px)">
+      <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:#E94E1B;margin-bottom:10px">Projeto</p>
+      <p style="font-size:16px;font-weight:500;line-height:1.45">Tráfego e Estrutura Comercial</p>
+    </div>
+    <div style="padding:clamp(20px,2.4vw,28px) clamp(22px,2.6vw,32px);box-shadow:inset 1px 0 0 rgba(233,78,27,.3)">
+      <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:#E94E1B;margin-bottom:10px">Área</p>
+      <p style="font-size:16px;font-weight:500;line-height:1.45">Nutrição Esportiva e Estética</p>
+    </div>
+    <div style="padding:clamp(20px,2.4vw,28px) clamp(22px,2.6vw,32px);box-shadow:inset 1px 0 0 rgba(233,78,27,.3)">
+      <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:#E94E1B;margin-bottom:10px">Data</p>
+      <p style="font-size:16px;font-weight:500;line-height:1.45">Outubro de 2026</p>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="01 Contexto" style="padding:clamp(88px,11vw,140px) clamp(20px,5vw,56px) clamp(72px,9vw,120px)">
+  <div style="max-width:1160px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(24px,5vw,72px);align-items:end">
+      <div>
+        <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">01 / Contexto</p>
+        <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em;text-wrap:balance">Seu perfil já trabalha bem.</h2>
+      </div>
+      <div data-r="" data-d="140" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;gap:14px">
+        <p style="font-size:clamp(16px,1.35vw,18px);line-height:1.75;color:rgba(255,255,255,.75);text-wrap:pretty">Conteúdo autêntico, um estilo de vida que inspira e uma agenda presencial cheia. O Instagram já é a sua principal porta de entrada e leva as pacientes direto para o WhatsApp.</p>
+        <p style="font-size:clamp(16px,1.35vw,18px);line-height:1.75;color:#FFFFFF;font-weight:600;text-wrap:pretty">Pessoas compram de quem vive o que elas querem viver.</p>
+      </div>
+    </div>
+    <div style="margin-top:clamp(44px,6vw,72px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);min-height:280px;display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:clamp(26px,2.8vw,36px);border-radius:24px;background:#2E2A29">
+        <img src="assets/fx/fx-icon-orange.png" alt="" style="width:44px;height:44px">
+        <div>
+          <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:20px;letter-spacing:-.01em;margin-bottom:12px">Autenticidade</h3>
+          <p style="font-size:15px;line-height:1.7;color:rgba(255,255,255,.75)">Conteúdo natural e criativo desde 2020. É o que gera conexão e transmite valor antes mesmo da consulta.</p>
+        </div>
+      </div>
+      <div data-r="" data-d="90" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);min-height:280px;display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:clamp(26px,2.8vw,36px);border-radius:24px;background:#9E2700">
+        <img src="assets/fx/fx-icon-white.png" alt="" style="width:44px;height:44px">
+        <div>
+          <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:20px;letter-spacing:-.01em;margin-bottom:12px">Agenda cheia</h3>
+          <p style="font-size:15px;line-height:1.7;color:rgba(255,255,255,.88)">O presencial em Aracaju e em Nossa Senhora da Glória já está preenchido. A demanda existe e o perfil converte.</p>
+        </div>
+      </div>
+      <div data-r="" data-d="180" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:clamp(26px,2.8vw,36px);border-radius:24px;background:linear-gradient(150deg,#FF5F27,#E94E1B 45%,#C23A10);color:#000000" style-hover="box-shadow:0 0 70px -18px rgba(233,78,27,.9)">
+        <p style="font-family:'Unbounded',sans-serif;font-weight:600;font-size:30px;letter-spacing:-.01em;line-height:1">&gt;&gt;&gt;</p>
+        <div>
+          <h3 style="font-family:'Unbounded',sans-serif;font-weight:600;font-size:20px;letter-spacing:-.01em;margin-bottom:12px">Próximo passo: online</h3>
+          <p style="font-size:15px;line-height:1.7;font-weight:500;color:#1A0700">Levar o atendimento para fora do consultório, aumentar o ticket e deixar de depender só da agenda física.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="02 Oportunidade" style="position:relative;overflow:hidden;padding:clamp(80px,10vw,130px) clamp(20px,5vw,56px);border-radius:clamp(28px,4vw,48px);margin:0 clamp(8px,1.4vw,16px);background:#0E0C0B">
+  {{ opGlow }}
+  <div style="position:relative;max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:clamp(36px,6vw,88px);align-items:start">
+    <div style="position:sticky;top:110px;align-self:start">
+      <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">02 / Oportunidade</p>
+      <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em;text-wrap:balance">O online não tem limite de endereço.</h2>
+      <div data-r="" data-d="120" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);margin-top:clamp(28px,4vw,44px)">{{ chevrons }}</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;display:flex;gap:clamp(18px,2.4vw,26px);padding:clamp(24px,2.6vw,32px);border-radius:22px;background:rgba(255,255,255,.04)" style-hover="background:rgba(233,78,27,.09)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(28px,2.8vw,36px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">01</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Qualquer cidade, qualquer país</h3><p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74);text-wrap:pretty">Pacientes de outras cidades e brasileiros que moram no exterior passam a ter acesso ao seu acompanhamento.</p></div>
+      </div>
+      <div data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;display:flex;gap:clamp(18px,2.4vw,26px);padding:clamp(24px,2.6vw,32px);border-radius:22px;background:rgba(255,255,255,.04)" style-hover="background:rgba(233,78,27,.09)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(28px,2.8vw,36px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">02</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Mais canais, mais previsibilidade</h3><p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74);text-wrap:pretty">Indicação, networking, conteúdo orgânico e tráfego somam forças. O tráfego é o canal que pode ser medido e escalado.</p></div>
+      </div>
+      <div data-r="" data-d="160" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;display:flex;gap:clamp(18px,2.4vw,26px);padding:clamp(24px,2.6vw,32px);border-radius:22px;background:rgba(255,255,255,.04)" style-hover="background:rgba(233,78,27,.09)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(28px,2.8vw,36px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">03</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Planos mais longos</h3><p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74);text-wrap:pretty">Acompanhamentos semestrais e anuais aumentam a adesão, favorecem o resultado da paciente e elevam o ticket.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="03 Estratégia" style="padding:clamp(88px,11vw,140px) clamp(20px,5vw,56px) clamp(72px,9vw,120px)">
+  <div style="max-width:1160px;margin:0 auto">
+    <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">03 / Estratégia</p>
+    <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:400;font-size:clamp(21px,2.8vw,36px);line-height:1.3;letter-spacing:-.015em;max-width:26ch;text-wrap:balance">O que define o resultado do anúncio não é só a verba. É o <span style="color:#E94E1B;font-weight:600">posicionamento</span> e o <span style="color:#E94E1B;font-weight:600">criativo</span>.</h2>
+
+    <div style="margin-top:clamp(48px,6vw,80px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:clamp(8px,1vw,12px);align-items:end">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;min-height:230px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:24px;border-radius:20px;border:1px solid rgba(233,78,27,.55)" style-hover="background:rgba(233,78,27,.07)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;letter-spacing:.16em;color:#E94E1B">ETAPA 01</p>
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;letter-spacing:-.01em">Onboarding</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:rgba(255,255,255,.7)">Perfil de paciente ideal e público online.</p>
+      </div>
+      <div data-r="" data-d="90" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;min-height:270px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:24px;border-radius:20px;border:1px solid rgba(233,78,27,.55)" style-hover="background:rgba(233,78,27,.07)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;letter-spacing:.16em;color:#E94E1B">ETAPA 02</p>
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;letter-spacing:-.01em">Criativos</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:rgba(255,255,255,.7)">Roteiros feitos pela FX para a sua social media gravar.</p>
+      </div>
+      <div data-r="" data-d="180" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),background .25s ease-out;min-height:310px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:24px;border-radius:20px;border:1px solid rgba(233,78,27,.55);background:rgba(158,39,0,.18)" style-hover="background:rgba(158,39,0,.3)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;letter-spacing:.16em;color:#E94E1B">ETAPA 03</p>
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;letter-spacing:-.01em">Tráfego no Meta</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:rgba(255,255,255,.75)">Início das campanhas no Instagram e no Facebook.</p>
+      </div>
+      <div data-r="" data-d="270" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;min-height:350px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:24px;border-radius:20px;background:linear-gradient(160deg,#FF5F27,#E94E1B 50%,#B8360C);color:#000000" style-hover="box-shadow:0 0 64px -16px rgba(233,78,27,.9)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em">ETAPA 04 · 3º MÊS</p>
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:600;font-size:18px;letter-spacing:-.01em">Google entra</h3>
+        <p style="font-size:14.5px;line-height:1.65;font-weight:500;color:#1A0700">Captando quem já está buscando por nutrição.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:clamp(12px,1.4vw,16px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);padding:clamp(22px,2.6vw,30px);border-radius:20px;background:#2E2A29">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.65);margin-bottom:18px">Divisão de referência da verba</p>
+        <div style="display:flex;gap:6px;height:52px">
+          <div style="flex:0 0 calc(70% - 3px);border-radius:12px;background:#E94E1B;color:#000000;display:flex;align-items:center;justify-content:space-between;padding:0 16px">
+            <span style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:12px">Meta</span>
+            <span style="font-family:'Unbounded',sans-serif;font-weight:600;font-size:clamp(17px,2vw,22px)">70%</span>
+          </div>
+          <div style="flex:1;border-radius:12px;background:#9E2700;display:flex;align-items:center;justify-content:center;padding:0 8px">
+            <span style="font-family:'Unbounded',sans-serif;font-weight:600;font-size:clamp(14px,1.6vw,18px)">30%</span>
+          </div>
+        </div>
+        <p style="margin-top:10px;font-size:12.5px;color:rgba(255,255,255,.55);text-align:right">Google</p>
+      </div>
+      <div data-r="" data-d="90" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);padding:clamp(22px,2.6vw,30px);border-radius:20px;background:#2E2A29;display:flex;flex-direction:column;justify-content:center;gap:10px">
+        <p style="display:flex;align-items:center;gap:12px;font-family:'Unbounded',sans-serif;font-size:13px;font-weight:400;letter-spacing:-.01em"><span style="color:#E94E1B;letter-spacing:-.01em;font-weight:600">&gt;&gt;&gt;</span>Posicionamento antes do tráfego</p>
+        <p style="display:flex;align-items:center;gap:12px;font-family:'Unbounded',sans-serif;font-size:13px;font-weight:400;letter-spacing:-.01em"><span style="color:#E94E1B;letter-spacing:-.01em;font-weight:600">&gt;&gt;&gt;</span>Criativo antes da verba</p>
+        <p style="display:flex;align-items:center;gap:12px;font-family:'Unbounded',sans-serif;font-size:13px;font-weight:400;letter-spacing:-.01em"><span style="color:#E94E1B;letter-spacing:-.01em;font-weight:600">&gt;&gt;&gt;</span>Clareza comercial</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="04 Escopo" style="padding:clamp(72px,9vw,120px) clamp(20px,5vw,56px);background:#F4F1EE;color:#000000;border-radius:clamp(28px,4vw,48px);margin:0 clamp(8px,1.4vw,16px)">
+  <div style="max-width:1160px;margin:0 auto">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px">
+      <div>
+        <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#C23A10;margin-bottom:20px">04 / Escopo</p>
+        <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em;max-width:16ch;text-wrap:balance">O que está incluído no projeto.</h2>
+      </div>
+      <img data-r="" data-d="120" src="assets/fx/fx-icon-orange.png" alt="" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);width:clamp(56px,6vw,76px);height:auto">
+    </div>
+
+    <div style="margin-top:clamp(40px,5vw,60px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;display:flex;gap:clamp(18px,2.4vw,28px);padding:clamp(26px,3vw,36px);border-radius:22px;background:#FFFFFF" style-hover="box-shadow:0 24px 50px -30px rgba(158,39,0,.45)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(36px,3.6vw,48px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">01</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(17px,1.6vw,20px);line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Direcionamento de criativos</h3><p style="font-size:15px;line-height:1.7;color:#4A4442;text-wrap:pretty">Roteiros e ideias de anúncio alinhados ao público, enviados para você e para a sua social media, com trabalho em conjunto.</p></div>
+      </div>
+      <div data-r="" data-d="90" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;display:flex;gap:clamp(18px,2.4vw,28px);padding:clamp(26px,3vw,36px);border-radius:22px;background:#FFFFFF" style-hover="box-shadow:0 24px 50px -30px rgba(158,39,0,.45)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(36px,3.6vw,48px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">02</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(17px,1.6vw,20px);line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Gestão de tráfego pago</h3><p style="font-size:15px;line-height:1.7;color:#4A4442;text-wrap:pretty">Campanhas no Meta Ads e, a partir do 3º mês, no Google Ads, em buscas como nutrição estética, emagrecimento e nutrição para mulheres. Análise diária, relatório semanal e reunião mensal de resultados.</p></div>
+      </div>
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;display:flex;gap:clamp(18px,2.4vw,28px);padding:clamp(26px,3vw,36px);border-radius:22px;background:#FFFFFF" style-hover="box-shadow:0 24px 50px -30px rgba(158,39,0,.45)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(36px,3.6vw,48px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">03</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(17px,1.6vw,20px);line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Google Meu Negócio</h3><p style="font-size:15px;line-height:1.7;color:#4A4442;text-wrap:pretty">Atualização e otimização completa do perfil.</p></div>
+      </div>
+      <div data-r="" data-d="90" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;display:flex;gap:clamp(18px,2.4vw,28px);padding:clamp(26px,3vw,36px);border-radius:22px;background:#FFFFFF" style-hover="box-shadow:0 24px 50px -30px rgba(158,39,0,.45)">
+        <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:300;font-size:clamp(36px,3.6vw,48px);line-height:1;min-width:1.6em;color:#E94E1B;font-variant-numeric:tabular-nums">04</span>
+        <div><h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(17px,1.6vw,20px);line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Estrutura comercial</h3><p style="font-size:15px;line-height:1.7;color:#4A4442;text-wrap:pretty">Reunião quinzenal, sugestão e implantação de CRM para acompanhar os contatos, script de abordagem no WhatsApp, ajuste de planos e estratégias para aumentar o ticket médio.</p></div>
+      </div>
+    </div>
+
+    <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);margin-top:clamp(10px,1.2vw,14px);display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;padding:clamp(22px,2.6vw,30px) clamp(24px,3vw,36px);border-radius:22px;background:#000000;color:#FFFFFF">
+      <span style="flex:0 0 auto;font-family:'Unbounded',sans-serif;font-weight:600;font-size:22px;letter-spacing:-.01em;color:#E94E1B">&gt;&gt;&gt;</span>
+      <p style="flex:1 1 300px;font-size:clamp(15px,1.4vw,17px);line-height:1.6;text-wrap:pretty">A produção e a gravação dos vídeos continuam com a sua social media atual. <strong style="color:#E94E1B;font-weight:600">A FX direciona os criativos.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="05 Acompanhamento" style="padding:clamp(88px,11vw,140px) clamp(20px,5vw,56px) clamp(56px,7vw,96px)">
+  <div style="max-width:1160px;margin:0 auto">
+    <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">05 / Acompanhamento</p>
+    <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em;max-width:18ch;text-wrap:balance">Ritmo claro, do dia a dia ao mês.</h2>
+    <div style="margin-top:clamp(40px,5vw,60px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:clamp(8px,1vw,12px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:20px;background:#2E2A29;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;color:#E94E1B">DIÁRIO</p>
+        <p style="font-family:'Unbounded',sans-serif;font-weight:400;font-size:17px;line-height:1.35;letter-spacing:-.01em">Análise das campanhas</p>
+      </div>
+      <div data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:20px;background:#3D2620;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;color:#E94E1B">SEMANAL</p>
+        <p style="font-family:'Unbounded',sans-serif;font-weight:400;font-size:17px;line-height:1.35;letter-spacing:-.01em">Relatório de desempenho</p>
+      </div>
+      <div data-r="" data-d="160" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:20px;background:#9E2700;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;color:#FFB79C">QUINZENAL</p>
+        <p style="font-family:'Unbounded',sans-serif;font-weight:400;font-size:17px;line-height:1.35;letter-spacing:-.01em">Reunião comercial</p>
+      </div>
+      <div data-r="" data-d="240" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:20px;background:#E94E1B;color:#000000;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:600;letter-spacing:.16em">MENSAL</p>
+        <p style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:17px;line-height:1.35;letter-spacing:-.01em">Reunião geral e ajustes</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="06 Por que a FX" style="padding:clamp(56px,7vw,96px) clamp(20px,5vw,56px) clamp(88px,11vw,140px)">
+  <div style="max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:clamp(36px,6vw,88px);align-items:center">
+    <div>
+      <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">06 / Por que a FX</p>
+      <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em;text-wrap:balance">Criatividade e estratégia não são caminhos separados.</h2>
+      <div data-r="" data-d="120" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);margin-top:clamp(28px,4vw,40px);width:clamp(140px,18vw,200px)">{{ disc }}</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),border-color .25s ease-out,background .25s ease-out;padding:clamp(24px,2.6vw,32px);border-radius:22px;border:1px solid rgba(233,78,27,.4)" style-hover="border-color:#E94E1B;background:rgba(233,78,27,.06)">
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Tráfego pensado a partir do criativo</h3>
+        <p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74)">A mensagem certa vem antes do investimento. É ela que faz a verba render.</p>
+      </div>
+      <div data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),border-color .25s ease-out,background .25s ease-out;padding:clamp(24px,2.6vw,32px);border-radius:22px;border:1px solid rgba(233,78,27,.4)" style-hover="border-color:#E94E1B;background:rgba(233,78,27,.06)">
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Comercial junto com o marketing</h3>
+        <p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74)">Não basta gerar contato. O objetivo é converter, com processo claro do anúncio até o agendamento.</p>
+      </div>
+      <div data-r="" data-d="160" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),border-color .25s ease-out,background .25s ease-out;padding:clamp(24px,2.6vw,32px);border-radius:22px;border:1px solid rgba(233,78,27,.4)" style-hover="border-color:#E94E1B;background:rgba(233,78,27,.06)">
+        <h3 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:18px;line-height:1.3;letter-spacing:-.01em;margin-bottom:10px">Visão de longo prazo</h3>
+        <p style="font-size:15px;line-height:1.72;color:rgba(255,255,255,.74)">Sem promessas imediatistas. Construção consistente, com ajustes guiados por dados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="investimento" data-screen-label="07 Investimento" style="position:relative;overflow:hidden;padding:clamp(80px,10vw,130px) clamp(20px,5vw,56px);border-radius:clamp(28px,4vw,48px);margin:0 clamp(8px,1.4vw,16px);background:#0E0C0B">
+  {{ invGlow }}
+  <div style="position:relative;max-width:1160px;margin:0 auto">
+    <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:20px">07 / Investimento</p>
+    <h2 data-r="" data-d="60" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.14;letter-spacing:-.01em">Escolha o seu plano.</h2>
+
+    <div style="margin-top:clamp(40px,5vw,60px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:clamp(12px,1.6vw,18px);align-items:stretch">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),border-color .25s ease-out;display:flex;flex-direction:column;padding:clamp(28px,3.4vw,44px);border-radius:28px;background:#2E2A29;border:1px solid transparent" style-hover="border-color:rgba(233,78,27,.5)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:12px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.7)">Plano 3 meses</p>
+        <p style="margin-top:28px;font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(40px,5vw,60px);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums"><span style="font-size:.36em;font-weight:400;color:rgba(255,255,255,.6);margin-right:8px;letter-spacing:0">R$</span>2.400</p>
+        <p style="margin-top:14px;font-size:15px;color:rgba(255,255,255,.7)">Equivale a R$ 800 por mês</p>
+        <div style="margin-top:auto;padding-top:32px"><p style="padding:14px 18px;border-radius:14px;background:rgba(0,0,0,.35);font-size:14px;color:rgba(255,255,255,.85)">À vista ou em até 3x sem juros</p></div>
+      </div>
+      <div data-r="" data-d="100" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease-out;position:relative;overflow:hidden;display:flex;flex-direction:column;padding:clamp(28px,3.4vw,44px);border-radius:28px;background:linear-gradient(150deg,#FF5F27,#E94E1B 45%,#B8360C);color:#000000;box-shadow:0 0 70px -24px rgba(233,78,27,.8)" style-hover="box-shadow:0 0 90px -16px rgba(233,78,27,.95)">
+        <img src="assets/fx/fx-icon-white.png" alt="" style="position:absolute;right:-40px;bottom:-40px;width:220px;opacity:.14;pointer-events:none">
+        <div style="position:relative;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px">
+          <p style="font-family:'Unbounded',sans-serif;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase">Plano 6 meses</p>
+          <span style="padding:8px 14px;border-radius:999px;background:#000000;color:#FFFFFF;font-family:'Unbounded',sans-serif;font-size:10.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase">Recomendado · Melhor condição</span>
+        </div>
+        <p style="position:relative;margin-top:28px;font-family:'Unbounded',sans-serif;font-weight:600;font-size:clamp(40px,5vw,60px);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums"><span style="font-size:.36em;font-weight:500;margin-right:8px;letter-spacing:0">R$</span>3.600</p>
+        <p style="position:relative;margin-top:14px;font-size:15px;font-weight:600;color:#1A0700">Equivale a R$ 600 por mês</p>
+        <div style="position:relative;margin-top:auto;padding-top:32px"><p style="padding:14px 18px;border-radius:14px;background:rgba(0,0,0,.16);font-size:14px;font-weight:600">À vista ou em até 6x sem juros</p></div>
+      </div>
+    </div>
+
+    <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);margin-top:clamp(16px,2vw,22px);display:flex;flex-wrap:wrap;align-items:center;gap:8px">
+      <span style="font-family:'Unbounded',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-right:8px">Pagamento</span>
+      <span style="padding:9px 16px;border-radius:999px;border:1px solid rgba(233,78,27,.5);font-size:13.5px;font-weight:500">Pix</span>
+      <span style="padding:9px 16px;border-radius:999px;border:1px solid rgba(233,78,27,.5);font-size:13.5px;font-weight:500">Transferência</span>
+      <span style="padding:9px 16px;border-radius:999px;border:1px solid rgba(233,78,27,.5);font-size:13.5px;font-weight:500">Cartão de crédito</span>
+    </div>
+
+    <div style="margin-top:clamp(28px,4vw,44px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(10px,1.2vw,14px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:18px;background:rgba(255,255,255,.04)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#E94E1B;margin-bottom:12px">Verba de anúncios</p>
+        <p style="font-size:14.5px;line-height:1.7;color:rgba(255,255,255,.75);text-wrap:pretty">Paga direto às plataformas, separada do valor do projeto, e definida no onboarding conforme o público e os objetivos. Referência inicial a partir de R$ 1.000 por mês.</p>
+      </div>
+      <div data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:18px;background:rgba(255,255,255,.04)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#E94E1B;margin-bottom:12px">Momento certo</p>
+        <p style="font-size:14.5px;line-height:1.7;color:rgba(255,255,255,.75);text-wrap:pretty">O início do ano costuma ter alta procura por acompanhamento nutricional. Começar agora deixa as campanhas otimizadas para essa fase.</p>
+      </div>
+      <div data-r="" data-d="160" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);padding:24px;border-radius:18px;background:rgba(255,255,255,.04)">
+        <p style="font-family:'Unbounded',sans-serif;font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#E94E1B;margin-bottom:12px">Validade</p>
+        <p style="font-size:14.5px;line-height:1.7;color:rgba(255,255,255,.75)">Proposta válida por 10 dias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="08 Próximos passos" style="padding:clamp(88px,11vw,140px) clamp(20px,5vw,56px) clamp(24px,3vw,40px)">
+  <div style="max-width:1160px;margin:0 auto">
+    <p data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);font-family:'Unbounded',sans-serif;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#E94E1B;margin-bottom:24px">08 / Próximos passos</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:clamp(8px,1vw,12px)">
+      <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:20px;border:1px solid rgba(233,78,27,.45)">
+        <span style="flex:0 0 38px;height:38px;border-radius:50%;background:rgba(233,78,27,.16);color:#E94E1B;display:flex;align-items:center;justify-content:center;font-family:'Unbounded',sans-serif;font-weight:500;font-size:13px">1</span>
+        <p style="font-weight:600;font-size:15px;line-height:1.3">Escolha do plano</p>
+      </div>
+      <div data-r="" data-d="80" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:20px;border:1px solid rgba(233,78,27,.45)">
+        <span style="flex:0 0 38px;height:38px;border-radius:50%;background:rgba(233,78,27,.16);color:#E94E1B;display:flex;align-items:center;justify-content:center;font-family:'Unbounded',sans-serif;font-weight:500;font-size:13px">2</span>
+        <p style="font-weight:600;font-size:15px;line-height:1.3">Contrato e pagamento</p>
+      </div>
+      <div data-r="" data-d="160" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:16px;padding:14px 22px 14px 20px;border-radius:20px;border:1px solid rgba(233,78,27,.45)">
+        <span style="flex:0 0 38px;height:38px;border-radius:50%;background:rgba(233,78,27,.16);color:#E94E1B;display:flex;align-items:center;justify-content:center;font-family:'Unbounded',sans-serif;font-weight:500;font-size:13px">3</span>
+        <div><p style="font-weight:600;font-size:15px;line-height:1.3">Reunião de onboarding</p><p style="font-size:12.5px;color:rgba(255,255,255,.6);margin-top:2px">Paciente ideal, público online e verba</p></div>
+      </div>
+      <div data-r="" data-d="240" style="opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:16px;padding:14px 22px 14px 20px;border-radius:20px;background:#E94E1B;color:#000000">
+        <span style="flex:0 0 38px;height:38px;border-radius:50%;background:#000000;color:#E94E1B;display:flex;align-items:center;justify-content:center;font-family:'Unbounded',sans-serif;font-weight:500;font-size:13px">4</span>
+        <p style="font-weight:700;font-size:15px;line-height:1.3">Primeiros criativos e campanhas no ar</p>
+      </div>
+    </div>
+
+    <div data-r="" data-d="0" style="opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1);position:relative;overflow:hidden;margin-top:clamp(40px,5vw,64px);padding:clamp(56px,8vw,110px) clamp(24px,5vw,64px);border-radius:clamp(26px,3.4vw,40px);border:1px solid #E94E1B;text-align:center">
+      {{ ctaGlow }}
+      <div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:clamp(24px,3vw,34px)">
+        <img src="assets/fx/fx-logo-orange.png" alt="FX Hub Creative" style="width:clamp(180px,22vw,260px);height:auto">
+        <h2 style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(28px,4.6vw,62px);line-height:1.12;letter-spacing:-.025em;text-wrap:balance">Vamos crescer no online?</h2>
+        <a href="https://wa.me/5579936183288" target="_blank" style="display:inline-flex;align-items:center;gap:12px;padding:clamp(16px,1.6vw,20px) clamp(28px,3vw,40px);border-radius:999px;background:#E94E1B;color:#000000;font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(12px,1.1vw,14px);letter-spacing:.06em;text-transform:uppercase;box-shadow:0 0 44px -8px rgba(233,78,27,.8);transition:background .22s ease-out,box-shadow .3s ease-out,transform .22s ease-out" style-hover="background:#FF5F27;color:#000000;box-shadow:0 0 64px -4px rgba(233,78,27,.95);transform:translateY(-2px)">Falar com a FX <span style="letter-spacing:-.01em">&gt;&gt;&gt;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="padding:clamp(16px,2vw,24px) clamp(20px,5vw,56px) clamp(28px,4vw,44px)">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px;padding:clamp(18px,2.2vw,24px) clamp(22px,3vw,32px);border-radius:24px;background:#2E2A29">
+    <div style="display:flex;align-items:center;gap:14px">
+      <img src="assets/fx/fx-icon-orange.png" alt="" style="width:30px;height:30px">
+      <img src="assets/fx/fx-logo-white.png" alt="FX Hub Creative" style="height:15px;width:auto">
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 22px;font-size:13px;color:rgba(255,255,255,.7)">
+      <span>Aracaju, Sergipe</span>
+      <span>Proposta exclusiva para Samara Augusta</span>
+    </div>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;animateGlow&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    const els = [...document.querySelectorAll('[data-r]')];
+    const show = el => {
+      const d = +(el.dataset.d || 0);
+      el.style.transitionDelay = d + 'ms';
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+      setTimeout(() => { el.style.transitionDelay = '0ms'; }, 1300 + d);
+    };
+    if (!('IntersectionObserver' in window)) { els.forEach(show); return; }
+    this.io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { show(e.target); this.io.unobserve(e.target); }
+    }), { threshold: 0.1, rootMargin: '0px 0px -5% 0px' });
+    els.forEach(el => this.io.observe(el));
+  }
+  componentWillUnmount() { this.io && this.io.disconnect(); }
+  glow(key, s) {
+    const h = React.createElement;
+    const anim = this.props.animateGlow ?? true;
+    const blob = (st, dur, delay) => h('div', { style: { position: 'absolute', borderRadius: '50%', filter: 'blur(70px)', willChange: 'transform', animation: anim ? `fxDrift ${dur}s ease-in-out ${delay}s infinite` : 'none', ...st } });
+    return h('div', { key, style: { position: 'absolute', inset: 0, pointerEvents: 'none', overflow: 'hidden' } },
+      blob({ width: s.w, height: s.w, left: s.x, top: s.y, background: 'radial-gradient(circle, rgba(233,78,27,.95) 0%, rgba(158,39,0,.7) 40%, transparent 70%)', opacity: s.o }, 22, 0),
+      s.two ? blob({ width: s.w2, height: s.w2, left: s.x2, top: s.y2, background: 'radial-gradient(circle, rgba(158,39,0,.9) 0%, rgba(90,20,0,.5) 45%, transparent 70%)', opacity: s.o }, 28, -6) : null);
+  }
+  chevrons() {
+    const h = React.createElement;
+    const one = i => h('svg', { key: i, viewBox: '0 0 60 100', style: { width: 'clamp(34px,4vw,48px)', height: 'auto', animation: 'fxChev 2.4s ease-in-out infinite', animationDelay: (i * 0.3) + 's' } },
+      h('path', { d: 'M4 4 H28 L56 50 L28 96 H4 L32 50 Z', fill: i === 2 ? '#E94E1B' : 'none', stroke: '#E94E1B', strokeWidth: 2, strokeLinejoin: 'round' }));
+    return h('div', { style: { display: 'flex', gap: 6 } }, [0, 1, 2].map(one));
+  }
+  disc(spin) {
+    const h = React.createElement;
+    const ring = (r, gapTop, w) => {
+      const C = 2 * Math.PI * r, g = 22;
+      return h('circle', { cx: 100, cy: 100, r, fill: 'none', stroke: '#E94E1B', strokeWidth: w, strokeDasharray: `${C - g} ${g}`, strokeDashoffset: gapTop ? -(g / 2) : -(C / 2 + g / 2), transform: 'rotate(-90 100 100)', strokeLinecap: 'round' });
+    };
+    return h('svg', { viewBox: '0 0 200 200', style: { width: '100%', height: 'auto', display: 'block', animation: spin ? 'fxSpin 40s linear infinite' : 'none' } },
+      ring(94, true, 1.6), ring(76, false, 1.6), ring(58, true, 1.6), h('circle', { cx: 100, cy: 100, r: 36, fill: 'none', stroke: 'rgba(233,78,27,.45)', strokeWidth: 1.2 }));
+  }
+  renderVals() {
+    const h = React.createElement;
+    return {
+      heroGlow: this.glow('h', { w: 'min(110vw,1100px)', x: '-18%', y: '-35%', o: 0.95, two: true, w2: 'min(80vw,800px)', x2: '55%', y2: '-20%' }),
+      opGlow: this.glow('o', { w: 'min(80vw,760px)', x: '55%', y: '30%', o: 0.55 }),
+      invGlow: this.glow('i', { w: 'min(90vw,900px)', x: '-20%', y: '-40%', o: 0.6, two: true, w2: 'min(60vw,600px)', x2: '60%', y2: '50%' }),
+      ctaGlow: this.glow('c', { w: 'min(90vw,800px)', x: '10%', y: '-70%', o: 0.55 }),
+      chevrons: this.chevrons(),
+      disc: this.disc(true),
+      heroMark: h('div', { style: { position: 'relative', width: '100%', height: '100%' } },
+        h('div', { style: { position: 'absolute', inset: 0, opacity: 0.55 } }, this.disc(true)),
+        h('img', { src: 'assets/fx/fx-icon-white.png', alt: '', style: { position: 'absolute', left: '22%', top: '22%', width: '56%', height: '56%', objectFit: 'contain', animation: 'fxFloat 6s ease-in-out infinite', filter: 'drop-shadow(0 0 40px rgba(233,78,27,.55))' } }))
+    };
+  }
+}
+</script>
+</body>
+</html>
